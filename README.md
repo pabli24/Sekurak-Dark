@@ -7,7 +7,7 @@
 
 <br>
 
-![Screenshot GreasyFork](./img/sekurak.png)
+![Screenshot](./img/sekurak.png)
 
 ## License
 [CC-BY-SA-4.0](https://github.com/pabli24/Sekurak-Dark/blob/main/LICENSE)
