@@ -10,4 +10,4 @@
 ![Screenshot GreasyFork](./img/sekurak.png)
 
 ## License
-[CC-BY-SA-4.0](https://github.com/pabli24/GreasyFork-Dark/blob/main/LICENSE)
+[CC-BY-SA-4.0](https://github.com/pabli24/Sekurak-Dark/blob/main/LICENSE)
