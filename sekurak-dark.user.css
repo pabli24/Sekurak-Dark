@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name                sekurak.pl - ciemny wygląd
 @description         Zmienia kolor portalu na ciemny
-@version             1.0.1
+@version             1.0.2
 @namespace           https://greasyfork.org/pl/users/124677-pabli
 @author              Pabli
 @license             CC-BY-NC-4.0
@@ -11,7 +11,7 @@
 
 @-moz-document domain("sekurak.pl") {
 header#header {
-    background-image: url("https://i.imgur.com/Kl5aOMp.png");
+    background-image: url("https://raw.githubusercontent.com/pabli24/Sekurak-Dark/main/img/header.png");
 }
 body, input, textarea, select, button {
 	background-color: #0e0e0e;
