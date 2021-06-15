@@ -1,9 +1,9 @@
 /* ==UserStyle==
 @name                sekurak.pl - ciemny wygląd
 @description         Zmienia kolor portalu na ciemny
-@version             1.0.2
+@version             1.1.0
 @namespace           https://greasyfork.org/pl/users/124677-pabli
-@author              Pabli
+@author              Pabli (https://github.com/pabli24)
 @license             CC-BY-NC-4.0
 @homepageURL         https://github.com/pabli24/Sekurak-Dark
 @supportURL          https://github.com/pabli24/Sekurak-Dark/issues
@@ -11,7 +11,7 @@
 
 @-moz-document domain("sekurak.pl") {
 header#header {
-    background-image: url("https://raw.githubusercontent.com/pabli24/Sekurak-Dark/main/img/header.png");
+	background-image: url("https://raw.githubusercontent.com/pabli24/Sekurak-Dark/main/img/header.png");
 }
 body, input, textarea, select, button {
 	background-color: #0e0e0e;
@@ -124,5 +124,58 @@ a:hover {
 .sekuraktable tbody tr:nth-child(odd) {
 	background-color: #151515;
 }
+
+#s {
+	color: #fff;
+}
+.searchBox {
+	border: 1px solid #222;
+	background: #0e0e0e;
+}
+#searchsubmit {
+	background: #444 url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNSIgaGVpZ2h0PSIyNSIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBzdHlsZT0iZmlsbDojZmZmOyIgZD0iTTIzLjExMSAyMC4wNThsLTQuOTc3LTQuOTc3Yy45NjUtMS41MiAxLjUyMy0zLjMyMiAxLjUyMy01LjI1MSAwLTUuNDItNC40MDktOS44My05LjgyOS05LjgzLTUuNDIgMC05LjgyOCA0LjQxLTkuODI4IDkuODNzNC40MDggOS44MyA5LjgyOSA5LjgzYzEuODM0IDAgMy41NTItLjUwNSA1LjAyMi0xLjM4M2w1LjAyMSA1LjAyMWMyLjE0NCAyLjE0MSA1LjM4NC0xLjA5NiAzLjIzOS0zLjI0em0tMjAuMDY0LTEwLjIyOGMwLTMuNzM5IDMuMDQzLTYuNzgyIDYuNzgyLTYuNzgyczYuNzgyIDMuMDQyIDYuNzgyIDYuNzgyLTMuMDQzIDYuNzgyLTYuNzgyIDYuNzgyLTYuNzgyLTMuMDQzLTYuNzgyLTYuNzgyem0yLjAxLTEuNzY0YzEuOTg0LTQuNTk5IDguNjY0LTQuMDY2IDkuOTIyLjc0OS0yLjUzNC0yLjk3NC02Ljk5My0zLjI5NC05LjkyMi0uNzQ5eiIvPjwvc3ZnPg==") 7px 7px no-repeat;
+}
+#header .searchBox::after {
+	content: '';
+	background: none;
+	position: absolute;
+	bottom: -11px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 30px 10px 0;
+	border-color: transparent #444 transparent transparent;
+}
+
+[src*="https://www.facebook.com/plugins/like.php?action=like"] {
+	filter: invert(1) hue-rotate(170deg);
+}
+
+
+}
+@-moz-document domain("sklep.sekurak.pl") {
+
+a, h1, h2, h3, h4, .b-box .price {
+	color: #d14448;
+}
+.breadcrumb {
+	background-color: #232323;
+}
+.breadcrumb-item.active, .form-header, .b-box .title {
+	color: #fff;
+}
+.b-box {
+	background-color: #131313;
+}
+.form-control, .form-control:focus {
+	background-color: #0e0e0e;
+	border: 1px solid #222;
+	color: #fff;
+}
+.card, .list-group-item {
+	background-color: #0e0e0e;
+	border: none;
+}
+
 
 }
