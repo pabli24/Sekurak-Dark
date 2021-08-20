@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name                sekurak.pl - ciemny wygląd
 @description         Zmienia kolor portalu na ciemny
-@version             1.1.0
+@version             1.1.1
 @namespace           https://greasyfork.org/pl/users/124677-pabli
 @author              Pabli (https://github.com/pabli24)
 @license             CC-BY-NC-4.0
@@ -28,6 +28,13 @@ a.text2link, header#header nav ul li a, .postTitle a, .meta a, .commentlist .com
 }
 header#header nav ul li a {
 	border-right: 2px solid #b9b9b9;
+}
+header#header .nav-wrapper {
+	background: none;
+}
+.text-adv {
+	background: rgba(255, 0, 0, 0.05);
+	color: #fff;
 }
 .boxGreen {
 	background-color: #080b02;
@@ -151,7 +158,31 @@ a:hover {
 	filter: invert(1) hue-rotate(170deg);
 }
 
-
+.spinner {
+	background-color: #fff;
+}
+.switch-theme .label .ball {
+	background-color: #555;
+}
+.switch-theme .label {
+	background-color: #000;
+}
+.switch-theme svg {
+	fill: #000;
+}
+body.dark .label::after {
+	background-color: #f00;
+	content: "Włącz jasny motyw na stronie by styl 'sekurak.pl - ciemny wygląd' działał poprawnie";
+	color: #fff;
+	font-size: 12px;
+	z-index: 99999;
+	margin-top: 3px;
+	margin-left: -315px;
+	padding: 5px;
+	border-radius: 10px;
+	width: 295px !important;
+	position: absolute;
+}
 }
 @-moz-document domain("sklep.sekurak.pl") {
 
