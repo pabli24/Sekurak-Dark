@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name                sekurak.pl - ciemny wygląd
 @description         Zmienia kolor portalu na ciemny
-@version             1.1.2
+@version             1.2.0
 @namespace           https://greasyfork.org/pl/users/124677-pabli
 @author              Pabli (https://github.com/pabli24)
 @license             CC-BY-NC-4.0
@@ -13,137 +13,155 @@
 :root {
 	color-scheme: dark;
 }
+/*
 header#header {
 	background-image: url("https://raw.githubusercontent.com/pabli24/Sekurak-Dark/main/img/header.png");
 }
-body, input, textarea, select, button {
-	background-color: #0e0e0e;
-	color: #eaeaea;
+*/
+html, body, input, textarea, select, button {
+	background-color: #0e0e0e !important;
+	color: #eaeaea !important;
 }
 header#header {
-	background-color: #0e0e0e;
+	background-color: #0e0e0e !important;
 }
 header#header nav {
-	background: #232323;
+	background: #232323 !important;
 }
 a.text2link, header#header nav ul li a, .postTitle a, .meta a, .commentlist .comment-author a, #sidebar a {
-	color: #b9b9b9;
+	color: #b9b9b9 !important;
 }
 header#header nav ul li a {
-	border-right: 2px solid #b9b9b9;
+	border-right: 2px solid #b9b9b9 !important;
 }
 header#header .nav-wrapper {
-	background: none;
+	background: none !important;
 }
 .text-adv {
-	background: rgba(255, 0, 0, 0.05);
-	color: #fff;
+	background: rgba(255, 0, 0, 0.05) !important;
+	color: #fff !important;
 }
 .boxGreen {
-	background-color: #080b02;
-	border: 1px solid #26360c;
+	background-color: #080b02 !important;
+	border: 1px solid #26360c !important;
 }
 .boxBlue {
-	background-color: #0e161c;
-	border: 1px solid #1b2e41;
+	background-color: #0e161c !important;
+	border: 1px solid #1b2e41 !important;
 }
 .boxRed {
-	background-color: #240f06;
-	border: 1px solid #3d1401;
+	background-color: #240f06 !important;
+	border: 1px solid #3d1401 !important;
 }
 .boxGrey {
-	background: #222222;
-	border: 1px solid #454545;
+	background: #222222 !important;
+	border: 1px solid #454545 !important;
 }
 .widgetTitle {
-	background: #232323;
+	color: #d14448 !important;
+	background: #232323 !important;
+	padding: 10px !important;
 }
 .widget .textwidget {
-	background-color: #131313;
+	background-color: #131313 !important;
+	padding: 10px !important;
 }
 .widget ul {
-	background-color: #131313;
+	background-color: #131313 !important;
 }
 .widget ul li {
-	border-bottom: 1px solid #222222;
+	border-bottom: 1px solid #222 !important;
+	padding: 10px !important;
 }
 hr {
-	border-top: 1px solid #222222;
+	border-top: 1px solid #222 !important;
 }
 input, textarea, select {
-	border: 1px solid #222222;
+	border: 1px solid #222 !important;
+	padding: 4px !important;
+}
+input[type="submit"] {
+    color: #fff !important;
+    background: #444 !important;
+    border: 1px solid #444 !important;
+	padding: 4px 10px !important;
 }
 .entry h2 {
-	border-bottom: 1px solid #242424;
+	border-bottom: 1px solid #242424 !important;
 }
 footer#footer {
-	background: #000000;
+	background: #000 !important;
 }
 #content #ppc-box .ppc-box .ppc h3 {
-	background: #232323;
+	background: #232323 !important;
 }
 #content #ppc-box .ppc-box .ppc {
-	border: 1px solid #222222;
-	background: #131313;
+	border: 1px solid #222 !important;
+	background: #131313 !important;
 }
 #content #ppc-box .ppc-box .ppc ul li a {
-	color: #ccc;
+	color: #ccc !important;
 }
 body .wp-pagenavi a {
-	background: #151515;
+	background: #151515 !important;
 }
 body .wp-pagenavi .current {
-	background: #333333;
-}
-#s {
-	color: #000000;
+	background: #333 !important;
 }
 blockquote {
-	background-color: #151515;
-	border: 1px solid #242424;
+	background-color: #151515 !important;
+	border: 1px solid #242424 !important;
 }
 .commentlist li {
-	background: #111111;
+	background: #111111 !important;
 }
 .commentlist .comment-body {
-	background: #111111;
-	border: 1px solid #111111;
+	background: #111 !important;
+	border: 1px solid #111 !important;
 }
 .commentlist .byuser .comment-body {
-	background: #0e0e0e;
-	border: 1px solid #222222;
+	background: #0e0e0e !important;
+	border: 1px solid #222 !important;
 }
 .commentlist .comment-author, a.text2link, header#header nav ul li a, .postTitle a, .meta a, .commentlist .comment-author a, #sidebar a {
-	color: #ffffff;
+	color: #fff !important;
 }
 .comment-reply-link {
-	background: #202020;
-	color: #eaeaea;
-	border: 1px solid #222222;
+	background: #202020 !important;
+	color: #eaeaea !important;
+	border: 1px solid #222 !important;
 }
 .comment-reply-link:hover {
-	background: #353535;
+	background: #353535 !important;
+}
+.meta {
+    border-top: 1px solid #d14448 !important;
+}
+a, #sidebar h1, #sidebar h2, #sidebar h3, #sidebar h4 {
+    color: #d14448 !important;
 }
 a:hover {
-	color: #ffffff;
+	color: #fff !important;
 }
 .wp-caption {
-	border: 1px solid #222222;
-	background-color: #131313;
+	border: 1px solid #222 !important;
+	background-color: #131313 !important;
 }
 .sekuraktable tbody tr:nth-child(odd) {
-	background-color: #151515;
+	background-color: #151515 !important;
 }
 
 #s {
-	color: #fff;
+	color: #fff !important;
+	border: none !important;
 }
 .searchBox {
-	border: 1px solid #222;
-	background: #0e0e0e;
+	border: 1px solid #222 !important;
+	background: #0e0e0e !important;
 }
 #searchsubmit {
-	background: #444 url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNSIgaGVpZ2h0PSIyNSIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBzdHlsZT0iZmlsbDojZmZmOyIgZD0iTTIzLjExMSAyMC4wNThsLTQuOTc3LTQuOTc3Yy45NjUtMS41MiAxLjUyMy0zLjMyMiAxLjUyMy01LjI1MSAwLTUuNDItNC40MDktOS44My05LjgyOS05LjgzLTUuNDIgMC05LjgyOCA0LjQxLTkuODI4IDkuODNzNC40MDggOS44MyA5LjgyOSA5LjgzYzEuODM0IDAgMy41NTItLjUwNSA1LjAyMi0xLjM4M2w1LjAyMSA1LjAyMWMyLjE0NCAyLjE0MSA1LjM4NC0xLjA5NiAzLjIzOS0zLjI0em0tMjAuMDY0LTEwLjIyOGMwLTMuNzM5IDMuMDQzLTYuNzgyIDYuNzgyLTYuNzgyczYuNzgyIDMuMDQyIDYuNzgyIDYuNzgyLTMuMDQzIDYuNzgyLTYuNzgyIDYuNzgyLTYuNzgyLTMuMDQzLTYuNzgyLTYuNzgyem0yLjAxLTEuNzY0YzEuOTg0LTQuNTk5IDguNjY0LTQuMDY2IDkuOTIyLjc0OS0yLjUzNC0yLjk3NC02Ljk5My0zLjI5NC05LjkyMi0uNzQ5eiIvPjwvc3ZnPg==") 7px 7px no-repeat;
+	background: #444 url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNSIgaGVpZ2h0PSIyNSIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBzdHlsZT0iZmlsbDojZmZmOyIgZD0iTTIzLjExMSAyMC4wNThsLTQuOTc3LTQuOTc3Yy45NjUtMS41MiAxLjUyMy0zLjMyMiAxLjUyMy01LjI1MSAwLTUuNDItNC40MDktOS44My05LjgyOS05LjgzLTUuNDIgMC05LjgyOCA0LjQxLTkuODI4IDkuODNzNC40MDggOS44MyA5LjgyOSA5LjgzYzEuODM0IDAgMy41NTItLjUwNSA1LjAyMi0xLjM4M2w1LjAyMSA1LjAyMWMyLjE0NCAyLjE0MSA1LjM4NC0xLjA5NiAzLjIzOS0zLjI0em0tMjAuMDY0LTEwLjIyOGMwLTMuNzM5IDMuMDQzLTYuNzgyIDYuNzgyLTYuNzgyczYuNzgyIDMuMDQyIDYuNzgyIDYuNzgyLTMuMDQzIDYuNzgyLTYuNzgyIDYuNzgyLTYuNzgyLTMuMDQzLTYuNzgyLTYuNzgyem0yLjAxLTEuNzY0YzEuOTg0LTQuNTk5IDguNjY0LTQuMDY2IDkuOTIyLjc0OS0yLjUzNC0yLjk3NC02Ljk5My0zLjI5NC05LjkyMi0uNzQ5eiIvPjwvc3ZnPg==") 7px 7px no-repeat !important;
+    width: 40px !important;
 }
 #header .searchBox::after {
 	content: '';
@@ -162,29 +180,21 @@ a:hover {
 }
 
 .spinner {
-	background-color: #fff;
+	background-color: #fff !important;
 }
 .switch-theme .label .ball {
-	background-color: #555;
+	background-color: #555 !important;
 }
 .switch-theme .label {
-	background-color: #000;
+	background-color: #000 !important;
 }
 .switch-theme svg {
 	fill: #000;
 }
-body.dark .label::after {
-	background-color: #f00;
-	content: "Włącz jasny motyw na stronie by styl 'sekurak.pl - ciemny wygląd' działał poprawnie";
-	color: #fff;
-	font-size: 12px;
-	z-index: 99999;
-	margin-top: 3px;
-	margin-left: -315px;
-	padding: 5px;
-	border-radius: 10px;
-	width: 295px !important;
-	position: absolute;
+.callout-box {
+    background-color: #1a0d0d !important;
+    border: 1px solid #d4474c !important;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, .6) !important;
 }
 }
 @-moz-document domain("sklep.sekurak.pl") {
@@ -210,6 +220,4 @@ a, h1, h2, h3, h4, .b-box .price {
 	background-color: #0e0e0e;
 	border: none;
 }
-
-
 }
